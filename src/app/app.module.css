@@ -1,0 +1,12 @@
+
+.root{
+    display: flex;
+}
+
+.panel{
+    position: fixed;
+}
+
+.container{
+    margin-left: 250px;
+}
