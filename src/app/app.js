@@ -47,7 +47,7 @@ class App extends Component {
     setPrice = (value, index) => {
         this.setState(state => {
             const prices = [...this.state.prices];
-            prices[index] = +value;
+            prices[index] = +value||0;
             return {
                 prices
             };
